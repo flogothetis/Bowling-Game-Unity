@@ -35,7 +35,8 @@ Extras
 
 The Role of the Scripts 
 
-	Audio_Play.cs   It controls when the sounds will be played . 
+	Audio_Play.cs
+It controls when the sounds will be played . 
 
 	Back_to_menu.cs   When player pushes ‘Esc’ and ‘Back to Menu’, it returns back to menu.
 
