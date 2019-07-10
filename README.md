@@ -1,14 +1,9 @@
 
-/*
+
  * Author : Logothetis Fragkoulis 
  * ECE
  * Electrical and Computer Engineer 
- * 
- * */
-
-
-
-
+ 
 
 1.Introduction 
 The task is to create a realistic 3D Bowling game, using the Unity3D Game Engine. Initially, the scene of the game was implemented. Especially by using cubes floor, the walls and the whole arena were created. Then for each of the objects in the scene was given a Physic Material, Texture, Colliders:
@@ -39,19 +34,30 @@ Extras
 
 
 The Role of the Scripts 
-	Audio_Play.cs   It controls when the sounds will be played . 
-	Back_to_menu.cs   When player push ‘Esc’ and ‘Back to Menu’ ,it return back to menu
-	Final1.cs Pause Scence (View the Score and Back to Menu choice)
-	Lancer Ball.cs  Give Force ,Torque to Ball ,Reset the Ball
-	Menu.cs  Menu Sections
-	Move.cs  Control Translation and Rotation of the Camera(Virtual Bowling Player )
-	ResetBall .cs Trigger Interface to Reset the Ball
-	ResetPins .csTrigger Interface to Reset Pins
-	Score.cs  Full Algorithm to calculate the current Score ,Switch Player etch .
-	ScoreManager.cs  Controls UI’s -Score Display
+
+	Audio_Play.cs   It controls when the sounds will be played . 
+
+	Back_to_menu.cs   When player pushes ‘Esc’ and ‘Back to Menu’, it returns back to menu.
+
+	Final1.cs Pause Scence (View the Score and Back to Menu choice).
+
+	Lancer Ball.cs  Give Force, Torque to Ball, Reset the Ball.
+
+	Menu.cs  Menu Sections.
+
+	Move.cs  Control Translation and Rotation of the Camera(Virtual Bowling Player).
+
+	ResetBall .cs Trigger Interface to Reset the Ball.
+
+	ResetPins .csTrigger Interface to Reset Pins.
+
+	Score.cs  Full Algorithm to calculate the current Score, Switch Player etch.
+
+	ScoreManager.cs  Controls UI’s -Score Display.
 
 Unity Prefabs 
-Each pin behave in the game in the same way .So I include all the pins in a Prefab .So all the pins have the same RigidBody,Texture,Mass ,Script .
+
+Each pin behaves in the game in the same way. So I include all pins in a Prefab. Consequently, all pins have the same RigidBody, Texture, Mass, Script .
 
 Character
 I built my own Character. I didn’t use Unity’s FPS Controller. (Move.cs)
