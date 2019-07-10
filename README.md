@@ -36,29 +36,48 @@ Extras
 The Role of the Scripts 
 
 *	Audio_Play.cs
+
 It controls when the sounds will be played . 
 
-*	Back_to_menu.cs   When player pushes ‘Esc’ and ‘Back to Menu’, it returns back to menu.
+*	Back_to_menu.cs
 
-*	Final1.cs Pause Scence (View the Score and Back to Menu choice).
+When player pushes ‘Esc’ and ‘Back to Menu’, it returns back to menu.
 
-*	Lancer Ball.cs  Give Force, Torque to Ball, Reset the Ball.
+*	Final1.cs 
 
-*	Menu.cs  Menu Sections.
+Pause scence (View the Score and Back to Menu choice).
 
-*	Move.cs  Control Translation and Rotation of the Camera(Virtual Bowling Player).
+*	Lancer Ball.cs  
 
-*	ResetBall .cs Trigger Interface to Reset the Ball.
+Gives force, torque to the ball, and reset.
 
-*	ResetPins .csTrigger Interface to Reset Pins.
+*	Menu.cs
 
-*	Score.cs  Full Algorithm to calculate the current Score, Switch Player etch.
+Menu sections.
 
-*	ScoreManager.cs  Controls UI’s -Score Display.
+*	Move.cs
+
+Control translation and rotation of the camera (virtual bowling player).
+
+*	ResetBall.cs 
+
+Trigger interface to reset the ball.
+
+*	ResetPins.cs
+
+Trigger interface to reset Pins.
+
+*	Score.cs  
+
+Full algorithm to calculate the current score, switch player, and etch.
+
+*	ScoreManager.cs  
+
+Controls UI’s - Score display.
 
 Unity Prefabs 
 
-Each pin behaves in the game in the same way. So I include all pins in a Prefab. Consequently, all pins have the same RigidBody, Texture, Mass, Script .
+Each pin behaves in the same way. So I included all pins in a Prefab. Consequently, all pins have the same RigidBody, Texture, Mass, Script .
 
 Character
 I built my own Character. 
