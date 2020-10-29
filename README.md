@@ -55,5 +55,5 @@ I didn’t use Unity’s FPS Controller. (Move.cs)
 
 
 # Play the game 
- Downlaod .exe file and double-click on it
+ Download .exe file and double-click on it
 
