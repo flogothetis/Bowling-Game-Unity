@@ -1,21 +1,6 @@
+# Unity-Bowling-Game
 
-
- * Author : Logothetis Fragkoulis 
- * ECE
- * Electrical and Computer Engineer 
- 
-
-## Introduction 
-
-The task is to create a realistic 3D Bowling game, using the Unity3D Game Engine. Initially, the scene of the game was implemented. Especially by using cubes floor, the walls and the whole arena were created. Then for each of the objects in the scene was given a Physic Material, Texture, Colliders:
-1. The floor had to have almost zero friction, so the Dynamic friction was set to zero.
-2. The ball should be able to slip easily on the floor, so its friction on the floor was kept low.
-3. All the objects have its own textures and physic material and settings like (Light Emission) were adjusted.
-When the stage architecture was completed, code scripts  were created to give life to the scene. Scripts were written  for throwing the ball, moving the camera (virtual player), UI’s, Audio Source , Score Projection , Restoring Pins and Ball, etc.
-Then on the scene in Screen Space mode UI's were placed to show the current frame and the two-player Score.
-Of course, the sound could not be missed from the game. A plenty of  sounds are played during ball slips on the floor, during the collision of the ball with the pins. Furthermore there is background music.
-Finally, after all the basic steps were completed, a menu of options was designed.
-
+The task is to create a realistic 3D Bowling game, using the Unity3D Game Engine. I
 
 
 ## The Role of the Scripts 
